@@ -5,6 +5,8 @@
 //import b4w from "blend4web";
 import * as b4w from "./b4w.js";
 console.log("b4w.js jest");
+console.log(b4w);
+console.log(b4w.math);
 var m_app = b4w.app;
 var m_cfg = b4w.config;
 var m_data = b4w.data;
