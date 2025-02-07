@@ -2,8 +2,8 @@
 /*if (b4w.module_check("my_project"))
     throw "Failed to register module: my_project_main";*/
 // register the application module
-import b4w from "blend4web";
-//import * as b4w from "./b4web.min.js";
+//import b4w from "blend4web";
+import  b4w from "./b4web.min.js";
 var m_app = b4w.app;
 var m_cfg = b4w.config;
 var m_data = b4w.data;
