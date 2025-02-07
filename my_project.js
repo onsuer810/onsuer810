@@ -4,7 +4,7 @@
 // register the application module
 //import b4w from "blend4web";
 import * as b4w from "./b4w.js";
-import { math as m_math } from "./b4w.js";
+
 console.log("b4w.js jest");
 
 
@@ -18,6 +18,7 @@ var m_cont = b4w.container;
 var m_ctl = b4w.controls;
 var m_mouse = b4w.mouse;
 console.log(b4w);
+const m_math = b4w.math;
 console.log(m_math);
 var m_obj = b4w.objects;
 var m_phy = b4w.physics;
