@@ -1,0 +1,34 @@
+[info]
+author = SrgPolCo
+icon = .b4w_icon.png
+name = my_project
+title = Bowling Comp
+
+[paths]
+assets_dirs = projects/my_project/assets;
+blend_dirs = projects/my_project/blender;
+blender_exec = D:\3D Blend279\blender-2.79b-windows64\blender-2.79b-windows64\blender.exe
+build_dir = projects/my_project/build
+deploy_dir = 
+
+[compile]
+apps = index.html;my_project.html;
+css_ignore = 
+engine_type = copy
+ignore = 
+js_ignore = 
+optimization = simple
+use_physics = True
+build_cmd = 
+
+[deploy]
+assets_path_dest = assets
+assets_path_prefix = assets
+ignore = 
+override = 
+
+[url_params]
+
+[editor]
+editor_ignore = 
+
