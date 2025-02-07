@@ -6,7 +6,7 @@
 import * as b4w from "./b4w.js";
 import { math as m_math } from "./b4w.js";
 console.log("b4w.js jest");
-console.log(m_math);
+
 
 var m_app = b4w.app;
 var m_cfg = b4w.config;
@@ -17,7 +17,8 @@ var m_anim = b4w.animation;
 var m_cont = b4w.container;
 var m_ctl = b4w.controls;
 var m_mouse = b4w.mouse;
-
+const m_math = b4w.math;
+console.log(m_math);
 var m_obj = b4w.objects;
 var m_phy = b4w.physics;
 var m_scenes = b4w.scenes;
