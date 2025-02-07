@@ -66,7 +66,7 @@ var m_hmd = require("hmd");
 var m_cam = require("camera");//b4w.camera;*/
 
 var parent_pos = new Float32Array();
-var DEBUG = (m_ver.type() == "DEBUG");
+//var DEBUG = (m_ver.type() == "DEBUG");
 
 
 var _drag_mode = false;
