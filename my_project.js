@@ -4,6 +4,7 @@
 // register the application module
 //import b4w from "blend4web";
 import  b4w from "./b4w.js";
+console.log("b4w.js");
 var m_app = b4w.app;
 var m_cfg = b4w.config;
 var m_data = b4w.data;
