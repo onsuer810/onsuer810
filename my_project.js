@@ -3,9 +3,13 @@
     throw "Failed to register module: my_project_main";*/
 // register the application module
 //import b4w from "blend4web";
-import * as b4w from "./b4w.js";
-console.log("b4w.js jest");
-
+//import * as b4w from "./b4w.js";
+//console.log("b4w.js jest");
+<script src="./b4w.js"></script>
+<script>
+    console.log(b4w);
+    console.log(b4w.math);
+</script>
 var m_app = b4w.app;
 var m_cfg = b4w.config;
 var m_data = b4w.data;
