@@ -107,7 +107,7 @@ var APP_ASSETS_PATH = m_cfg.get_assets_path("./assets");
 
 //var _TxBow_X;
 // Создаём объект Audio
-var audio = new Audio("Foul.mp3");
+var audio = new Audio("assets/Foul.mp3");
 var audioRunBall = new Audio(APP_ASSETS_PATH + "BallRun01.mp3");
 var audioKegli = new Audio(APP_ASSETS_PATH + "Kegli.mp3");
 var audioFinal = new Audio(APP_ASSETS_PATH + "Final01.mp3");
