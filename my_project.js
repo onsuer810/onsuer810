@@ -102,7 +102,7 @@ var _vec4_tmp = new Float32Array(4);
 var _pline_tmp = m_math.create_pline();
 
 // automatically detect assets path
-var APP_ASSETS_PATH = m_cfg.get_assets_path("onsuer810");
+var APP_ASSETS_PATH = m_cfg.get_assets_path("./assets");
 
 
 //var _TxBow_X;
