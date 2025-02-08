@@ -102,18 +102,18 @@ var _vec4_tmp = new Float32Array(4);
 var _pline_tmp = m_math.create_pline();
 
 // automatically detect assets path
-var APP_ASSETS_PATH = m_cfg.get_assets_path("assets/");
+//var APP_ASSETS_PATH = m_cfg.get_assets_path("assets/");
 
 
 //var _TxBow_X;
 // Создаём объект Audio
 var audio = new Audio("assets/Foul.mp3");
-var audioRunBall = new Audio(APP_ASSETS_PATH + "BallRun01.mp3");
-var audioKegli = new Audio(APP_ASSETS_PATH + "Kegli.mp3");
-var audioFinal = new Audio(APP_ASSETS_PATH + "Final01.mp3");
-var audioStrike = new Audio(APP_ASSETS_PATH + "Strike01.mp3");
-var audioMusic01 = new Audio(APP_ASSETS_PATH + "Music01.mp3");
-var audioMusic02 = new Audio(APP_ASSETS_PATH + "Music02.mp3");
+var audioRunBall = new Audio("assets/BallRun01.mp3");
+var audioKegli = new Audio( "assets/Kegli.mp3");
+var audioFinal = new Audio("assets/Final01.mp3");
+var audioStrike = new Audio("assets/Strike01.mp3");
+var audioMusic01 = new Audio( "assets/Music01.mp3");
+var audioMusic02 = new Audio( "assets/Music02.mp3");
 var _last_posX_R = 0.0;
 var _last_posX_L = 0.0;//1100.0;
 //var _last_posY_B = 0.0;
@@ -235,7 +235,7 @@ function init() {
         var preloader_cont = document.getElementById("preloader_cont");
         preloader_cont.style.visibility = "visible";
         if (window.web_page_integration_dry_run)
-            m_data.load(APP_ASSETS_PATH + "my_project.json", load_cb, preloader_cb);
+            m_data.load("assets/my_project.json", load_cb, preloader_cb);
        //console.log("function load");
     }
 
