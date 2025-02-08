@@ -5,10 +5,10 @@ name = my_project
 title = Bowling Comp
 
 [paths]
-assets_dirs = projects/my_project/assets;
-blend_dirs = projects/my_project/blender;
+assets_dirs = ./assets;
+blend_dirs = ./blender;
 blender_exec = D:\3D Blend279\blender-2.79b-windows64\blender-2.79b-windows64\blender.exe
-build_dir = projects/my_project/build
+build_dir = ./build
 deploy_dir = 
 
 [compile]
